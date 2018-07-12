@@ -45,4 +45,5 @@ but when put together in a list it looks strange. Still, the system works. So fa
 we have gotten Spain 1-0 Iran, France 0-0 Denmark, Colombia 1-0 Senegal 
 and Sweden 1-0 Switzerland correct, placing us a joint second with 
 the total winnings of CHF 90 (that is CHF 40 net, as the entry fee was CHF 50.)
-Not bad.
+Not bad, even if three of these were saved by VAR; on the other hand, we came
+painfully close with Brazil 1-0 Mexico and Russia 1-2 Croatia.
