@@ -37,23 +37,20 @@ data {
 parameters {
   // Offense, defence and HFA are in log space
   real off_raw[n_teams-1];
-  real def_raw[n_teams-1];
+  real def[n_teams];
   real hfa;
   real rho;
 }
 
 transformed parameters {
-  // Introduce sum-to-zero constraint on defence and offence ratings
+  // Introduce sum-to-zero constraint on offence ratings
   real off[n_teams];
-  real def[n_teams];
 
   for (i in 1:n_teams - 1){
     off[i] = off_raw[i];
-    def[i] = def_raw[i];
   }
 
   off[n_teams] = -sum(off_raw);
-  def[n_teams] = -sum(def_raw);
 }
 
 model {
